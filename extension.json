@@ -2,8 +2,8 @@
   "name": "DHT Analyzer EN",
   "apiVersion": "1.0.0",
   "author": "siroyiryuu",
-  "version": "1.0.1",
-  "description": "Decodes the DHT11 / DHT12 / DHT22(AM2302) single-wire temperature & humidity protocol and shows 'RH 33.0% / T 28.0 C' bubbles on the waveform. Uses the built-in 'Simple Parallel' analyzer as an edge sampler (Clock = the DHT data line, Clock Edge = Falling, D0 = the same line) and reconstructs pulse widths from the time between adjacent falling edges. English build of the DHT Analyzer extension.",
+  "version": "1.0.2",
+  "description": "Decodes DHT11 / DHT12 / DHT22(AM2302) single-wire temperature & humidity. Needs the built-in Simple Parallel analyzer as an edge sampler; shows RH/T bubbles plus a checksum verdict.",
   "extensions": {
     "DHT Analyzer EN": {
       "type": "HighLevelAnalyzer",
